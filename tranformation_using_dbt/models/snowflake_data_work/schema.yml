@@ -1,0 +1,49 @@
+version: 2
+
+sources:
+  - name: dim_d_create
+    database: MINE  
+    schema: SCH_1  
+    tables:
+      - name: shipments_deliveries
+      
+  - name: dim_d
+    database: MINE  
+    schema: SCH_1
+    tables:
+      - name: dim_date
+
+  - name: dim_order
+    database: MINE  
+    schema: SCH_1
+    tables:
+      - name: orders
+
+  - name: dim_review
+    database: MINE  
+    schema: SCH_1
+    tables:
+      - name: reviews
+
+  - name: dim_late_ship
+    database: MINE  
+    schema: SCH_1
+    tables:
+      - name: late_shipmet
+
+  - name: dim_undeli_ship
+    database: MINE  
+    schema: SCH_1
+    tables:
+      - name: total_undelivered_shipment
+
+  
+
+# models:
+#   - name: late_shipmet
+#     description: "a simple model"
+
+#     - name: total_undelivered_shipment
+#     description: "a simpler model"
+
+  
