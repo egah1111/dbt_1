@@ -37,6 +37,12 @@ sources:
     tables:
       - name: total_undelivered_shipment
 
+  - name: dim_agg_ship
+    database: MINE  
+    schema: SCH_1
+    tables:
+      - name: agg_shipment
+
   
 
 # models:
