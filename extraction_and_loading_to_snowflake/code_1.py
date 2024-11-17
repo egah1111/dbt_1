@@ -4,7 +4,7 @@ import pandas as pd
 
 # credentials
 user="EGAH1111"
-password="Realtime@92.3"
+password="*****"
 account="uo11147.eu-west-1"
 role="ACCOUNTADMIN"
 
